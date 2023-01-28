@@ -268,7 +268,7 @@ p {
     stroke-dashoffset: -670;
 }
 .process__call {
-    background: url(../img/book_bg.svg) no-repeat center / cover;
+    background: url(../img/book_bg.jpg) no-repeat center / cover;
     border-radius: 16px;
     padding: 120px 170px;
     margin-top: 230px;
@@ -477,6 +477,14 @@ p {
 .reviews__container {
     position: relative;
 }
+.reviews__title {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
 .reviews__slider {
     max-width: 745px;
     margin: 0 auto 0 auto;
@@ -647,10 +655,36 @@ p {
     margin-bottom: 65px;
 }
 
+.footer {
+    background-color: #181C26;
+    padding: 105px 0 35px 0;
+}
+.footer__top {
+    margin-bottom: 170px;
+}
+.footer__logo img {
+    width: 64px;
+    height: 22px;
+}
+.footer__bottom {
+    font-size: 14px;
+    line-height: 16px;
+    color: #808B95;
+}
+
+.social-links__item:not(:last-child) {
+    margin-right: 25px;
+}
+.social-links__link img {
+    width: 32px;
+    height: 32px;
+}
+
 
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ################################################# ADAPTIVE ################################################# */
 /* ------------------------------------------------------------------------------------------------------------ */
+
 
 /* ############################################# MIN-WIDTH 1300px ############################################# */
 
@@ -952,6 +986,15 @@ p {
     .get-started__title {
         font-size: 48px;
     }
+
+    /* ------------- FOOTER ------------- */
+
+    .footer {
+        padding: 55px 0 35px 0;
+    }
+    .footer__top {
+        margin-bottom: 110px;
+    }
 }
 
 /* ############################################# MAX-WIDTH 768px ############################################# */
@@ -1186,6 +1229,17 @@ p {
     .get-started__title {
         font-size: 40px;
         margin-bottom: 45px;
+    }
+
+    /* ------------- FOOTER ------------- */
+
+    .footer__top {
+        text-align: center;
+        margin-bottom: 55px;
+    }
+    .footer__links {
+        justify-content: center;
+        margin-top: 35px;
     }
 }
 
