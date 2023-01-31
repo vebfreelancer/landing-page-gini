@@ -672,12 +672,12 @@ p {
     color: #808B95;
 }
 
+.social-links__item {
+    color: #808B95;
+    transition: color .3s ease-out;
+}
 .social-links__item:not(:last-child) {
     margin-right: 25px;
-}
-.social-links__link img {
-    width: 32px;
-    height: 32px;
 }
 
 
@@ -805,6 +805,10 @@ p {
     }
     .accordion__nav:hover svg path {
         stroke: #7d6cf6;
+    }
+
+    .social-links__item:hover {
+        color: #fff;
     }
 
     /* ------------- HEADER ------------- */
