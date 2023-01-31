@@ -602,15 +602,12 @@ p {
     margin: 0 auto 0 auto;
 }
 .faq__title {
-    margin-bottom: 65px;
+    margin-bottom: 40px;
 }
 
-.accordion__item:not(:last-child) {
-    margin-bottom: 25px;
-}
 .accordion__nav {
     border-bottom: 1px solid #DBE2E9;
-    padding: 0 8px 25px 0;
+    padding: 25px 8px 25px 0;
     cursor: pointer;
 }
 .accordion__nav._spoller-active .accordion__arrow {
@@ -637,8 +634,7 @@ p {
     font-size: 16px;
     line-height: 24px;
     color: #606A73;
-    padding: 0 0 16px 0px;
-    margin-top: 16px;
+    padding: 15px 0px;
 }
 
 /* ################################################# GET STARTED ################################################# */
@@ -979,7 +975,7 @@ p {
         padding: 60px 0px;
     }
     .faq__title {
-        margin-bottom: 45px;
+        margin-bottom: 20px;
     }
 
     /* ------------- GET STARTED ------------- */
@@ -1370,6 +1366,6 @@ p {
     /* ------------- FAQ ------------- */
 
     .faq__title {
-        margin-bottom: 25px;
+        margin-bottom: 0;
     }
 }
