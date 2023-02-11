@@ -908,6 +908,9 @@ p {
     .first-screen__image {
         margin-left: 0;
     }
+    .first-screen__image img {
+        width: 100%;
+    }
 
     /* ------------- MISSION ------------- */
 
